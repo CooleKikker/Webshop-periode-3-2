@@ -1,0 +1,53 @@
+body{
+    background-color: #00baee86;
+    text-align: left;
+}
+
+.logindiv{	
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  	width: 40%;
+    height: auto;
+    min-height: 250px;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.header{
+    width: 100%;
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+
+.header h4{
+    color: black;
+    font-family: ff-duper-web-pro, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+form input{
+    width: 90%;
+    height: 20px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+form p{
+    color: red;
+    margin: 5px;
+}
+
+.aanmaken{
+    float: right;
+    padding: 2px;
+}
