@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Gegenereerd op: 07 mei 2020 om 09:06
+-- Gegenereerd op: 07 mei 2020 om 09:12
 -- Serverversie: 5.7.30-0ubuntu0.18.04.1
 -- PHP-versie: 7.2.24-0ubuntu0.18.04.4
 
@@ -122,7 +122,15 @@ INSERT INTO `product_image` (`id`, `product_id`, `image`) VALUES
 (17, 11, 'bh.png'),
 (18, 11, 'at.png'),
 (19, 14, 'ganzenbord1.jpg'),
-(20, 14, 'ganzenbord2.jpg');
+(20, 14, 'ganzenbord2.jpg'),
+(21, 15, 'kaarten1.jpg'),
+(22, 15, 'kaarten2.jpg'),
+(23, 16, 'ezelen1.jpg'),
+(24, 16, 'ezelen2.jpg'),
+(25, 18, 'play1.jpg'),
+(26, 18, 'play2.jpg'),
+(27, 17, 'test2.jpg'),
+(28, 17, 'test1.jpg');
 
 -- --------------------------------------------------------
 
@@ -203,7 +211,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT voor een tabel `product_image`
 --
 ALTER TABLE `product_image`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 --
 -- AUTO_INCREMENT voor een tabel `user`
 --
